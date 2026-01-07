@@ -1,0 +1,101 @@
+# ==================== Python 核心忽略规则 ====================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# ==================== 开发环境与IDE ====================
+# Virtual Environments (永远不要提交！)
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+.venv.bak/
+
+# IDE - Visual Studio Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# IDE - PyCharm / IntelliJ
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# IDE - Others
+.project
+.classpath
+.settings/
+
+# 操作系统文件
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+[Tt]humbs.db
+*.swp
+*.swo
+*~
+
+# 自己配置
+Lib
+Include
+Scripts
+share
+pyvenv.cfg
+*.log
+service/predict/future_3frames_predictions
+service/predict/train_results
+service/predict/version1/*.pth
+test
+opencv_build
