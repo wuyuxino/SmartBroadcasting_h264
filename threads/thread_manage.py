@@ -349,7 +349,7 @@ def yolo_detection_thread(camera_index=settings.CAMERA_INDEX):
             device=device,
             batch=1,
             max_det=10,
-            iou=0.7
+            iou=0.9
         )
 
         # 将检测坐标按比例映射回原始裁剪帧尺寸，供后续逻辑使用
